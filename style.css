@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {	
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;    
+	background: #fff;
+	color: #333333;	
+}
+
+a:hover {text-decoration: none;}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+::selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-moz-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+.scrolltotop {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px 20px 0 0;
+    background: rgba(0,0,0,.5);
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 22px;
+    color: #ffffff;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+}
+
+.scrolltotop:hover {   
+    background: #000;
+    color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);   
+}
+
+
+/*-- header area start --*/
+.header {
+    background: #333333;
+    padding: 10px 0px;
+    box-shadow: 0px 20px 30px rgba(0,0,0);
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left a img {
+    display: inline-block;
+    width: 170px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right-one a {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+}
+
+.header-right-two span {
+    display: inline-block;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.header-right-two span img {
+    display: inline-block;
+    width: 22px;
+}
+
+.menu-hide {
+    display: none;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+}
+
+.icon_active {
+    transform: rotate(50deg);
+}
+
+.menu_active {
+    display: inline-block;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+} 
+
+.menu-hide ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+/*-- header area end --*/
+
+/*-- bannar area start --*/
+.bannar {
+    background-image: url(img/hero.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding: 300px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.bannar-wrapper {
+    max-width: 400px;
+}
+
+.bannar-wrapper h5 {
+    font-size: 41px;
+    color: #3CC896;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.bannar-wrapper h5 span {
+    color: #fff;
+}
+
+.bannar-wrapper p {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #ADADAD;
+    margin-top: 20px;
+}
+
+/*-- bannar area end --*/
+
+/*-- bring area start --*/
+
+.main {
+    background-image: url(img/main.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #333333;
+    padding-top: 145px;
+    margin-top: -82px;
+    position: relative;
+    z-index: 0;
+}
+
+.bring-wrapper {
+    background: #333333;
+    border-radius: 21px;
+    box-shadow: 0px 0px 60px rgba(0,0,0,.30);
+    padding: 50px 0px;
+}
+
+.bring-heading h4 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bring-heading p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.bring-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bring-block-one span {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url(img/finger.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+}
+
+.bring-block-one span:hover {
+    background-image: url(img/hv1.png);    
+}
+
+.bring-block-two span {
+     background-image: url(img/finger2.svg);
+}
+
+.bring-block-two span:hover {
+    background-image: url(img/hv2.png);    
+}
+
+.bring-block-three span {
+     background-image: url(img/finger3.svg);
+}
+
+.bring-block-three span:hover {
+    background-image: url(img/hv3.png);    
+}
+
+.bring-block-one p {
+    margin-bottom: 0;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.bring-block-two {
+    margin: 0px 100px;
+}
+
+.bring-block-one {
+    margin-top: 30px;
+}
+
+/*-- bring area end --*/
+
+/*-- inter area start --*/
+.inter-left {
+    max-width: 538px;
+    margin-left: auto;
+    border-radius: 21px;
+    box-shadow: 0px 0px 60px rgba(0,0,0,.30);
+    display: flex;
+    padding: 45px 0px 45px 45px;
+    background: #333333;
+}
+
+.inter-left-text h4 {
+    color: #FFD22A;
+    font-weight: normal;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+
+.inter-left-text p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.inter-left-text a {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 36px;
+    border: 2px solid #fff;
+    padding: 8px 25px;
+    margin-top: 18px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+}
+
+.inter-left-text a:hover {
+    background: #FFD22A;
+    border-color: #FFD22A;
+}
+
+.inter-left-img img {
+    display: inline-block;
+    width: 220px;
+    margin-left: 30px;
+    position: relative;
+    z-index: 9999;
+}
+
+.inter-right img {
+    display: block;
+    width: 100%;
+}
+
+.inter-right {
+    margin-left: -150px;
+}
+
+.inter {
+    padding: 100px 0px;
+}
+
+/*-- inter area end --*/
+
+/*-- exp area start --*/
+.exp-left img {
+    display: block;
+    width: 100%;
+}
+
+.exp-right {
+    max-width: 538px;
+    border-radius: 21px;
+    box-shadow: 0px 0px 60px rgba(0,0,0,.30);
+    display: flex;
+    padding: 45px 45px 45px 0px;
+    background: #333333;
+}
+
+.exp-right-img img {
+    display: inline-block;
+    width: 220px;
+    margin-right: 30px;
+    position: relative;
+    z-index: 9999;
+}
+
+.exp-right-text h4 {
+    color: #3CE396;
+    font-weight: normal;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+
+.exp-right-text p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.exp-right-text a {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 36px;
+    border: 2px solid #fff;
+    padding: 8px 25px;
+    margin-top: 18px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+}
+
+.exp-right-text a:hover {
+    background: #3CE396;
+    border-color: #3CE396;
+}
+
+.exp-left {
+    margin-right: -150px;
+    position: relative;
+    z-index: 9999;
+}
+
+.exp {
+    padding: 100px 0px;
+}
+
+.inteligence .inter-left-text h4 {
+    color: #FF8228;
+}
+
+.inteligence .inter-left-text a:hover {
+    background:  #FF8228;
+    border-color:  #FF8228;
+}
+
+/*-- exp area end --*/
+
+/*-- find area start --*/
+.find-wrapper {
+    background: #333333;
+    border-radius: 21px;
+    box-shadow: 0px 0px 60px rgba(0,0,0,.30);
+    padding: 40px 0px;
+}
+
+.find-wrapper h4 {
+    font-weight: normal;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+    color: #28B4FF;
+}
+
+.find-wrapper p {
+    margin-bottom: 0;
+    font-size: 15px;
+    color: #fff;
+}
+
+.find-wrapper a {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 36px;
+    border: 2px solid #fff;
+    padding: 8px 25px;
+    margin-top: 18px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+}
+
+.find-wrapper a:hover {
+    background: #28B4FF;
+    border-color: #28B4FF;
+}
+
+/*-- find area end --*/
+
+/*-- logo area start --*/
+.logo-wrapper {
+    background: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    padding: 30px 0px;
+}
+
+.part-of p {
+    text-transform: uppercase;
+    color: #28B4FF;
+}
+
+.part-of img {
+    display: inline-block;
+    width: 220px;
+}
+
+.part-of-slider {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 40px;
+}
+
+.slider-img {
+    height: 100px;
+    position: relative;
+}
+
+.slider-img img {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.part-of-slider {
+    border-top: 1px solid #393939;
+    border-bottom: 1px solid #393939;
+}
+
+.part-of-slider {
+    position: relative;
+}
+
+.part-of-arrow span {
+    display: inline-block;
+    cursor: pointer;
+    color: #707070;
+    position: absolute;
+    z-index: 99999999;
+}
+
+.part-of-arrow span#left-slider {
+    left: -45px;
+    top: 39px;
+}
+
+.part-of-arrow span#right-slider {
+    right: -45px;
+    top: 39px;
+}
+
+.logo {
+    margin-top: 60px;
+}
+
+/*-- logo area end --*/
+
+/*-- footer area start --*/
+.footer {
+    background: #333333;
+    padding: 10px 0px;
+    box-shadow: 0px -10px 60px rgba(0,0,0);
+    margin-top: 60px;
+}
+
+.footer-left a img {
+    display: inline-block;
+    width: 170px;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-right ul li {
+    display: inline-block;
+}
+
+.footer-right ul li a {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+}
+
+.footer-right ul li a span {
+    display: inline-block;
+    margin: 0px 8px;
+    color: #FFD22A;
+}
+
+.footer-right ul li:nth-child(2) a span {
+    color: #3CE196;
+}
+
+.footer-right ul li:nth-child(3) a span {
+    color: #FF8228;
+}
+
+.mobile-menu {
+    margin-top: 15px;
+    display: none;
+}
+
+
+/*-- footer area end --*/
+
+
+
+
+
+
+
+
+

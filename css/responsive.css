@@ -1,0 +1,328 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+.bannar {
+	padding: 200px 0px;
+}
+
+.inter-left , .exp-right {
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+.header-left a img {
+    width: 120px;
+}
+
+.menu-hide ul li {
+    margin-left: 20px;
+}
+
+.bannar {
+	padding: 100px 0px;
+}
+
+.bring-heading h4 {
+    font-size: 28px;
+}
+
+.bring-wrapper {
+    padding: 50px 30px;
+}
+
+.bring-heading h4 {
+   color: #fff;
+   font-weight: normal;
+   font-size: 25px;
+}
+
+.bring-wrapper {
+    padding: 50px 14px;
+}
+
+.bring-block-two {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.inter {
+    padding: 50px 0px;
+}
+
+.inter-left {
+	padding: 25px;
+	max-width: 100%;
+}
+
+.inter-left-text img , .exp-right-text img {
+	width: 100px;
+	margin-bottom: 20px;
+}
+
+.exp {
+    padding: 50px 0px;
+}
+
+.exp-right {
+	padding: 25px;
+	max-width: 100%;
+}
+
+.part-of-slider {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.footer-wrapper {
+	display: block;
+	text-align: center;
+}
+
+.footer-right ul li a {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+
+.bannar {
+	padding: 100px 0px;
+}
+
+.bring-heading h4 {
+   color: #fff;
+   font-weight: normal;
+   font-size: 25px;
+}
+
+.bring-wrapper {
+    padding: 50px 14px;
+}
+
+.bring-block-two {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.inter {
+    padding: 50px 0px;
+}
+
+.inter-left {
+	padding: 25px;
+	max-width: 100%;
+}
+
+.inter-left-text img , .exp-right-text img {
+	width: 100px;
+	margin-bottom: 20px;
+}
+
+.exp {
+    padding: 50px 0px;
+}
+
+.exp-right {
+	padding: 25px;
+	max-width: 100%;
+}
+
+.part-of-slider {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.footer-wrapper {
+	display: block;
+	text-align: center;
+}
+
+.footer-right ul li a {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+
+.bannar {
+	padding: 100px 0px;
+}
+
+.bring-heading h4 {
+   color: #fff;
+   font-weight: normal;
+   font-size: 25px;
+}
+
+.bring-wrapper {
+    padding: 50px 14px;
+}
+
+.bring-block-two {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.inter {
+    padding: 50px 0px;
+}
+
+.inter-left {
+	padding: 25px;
+}
+
+.inter-left-text img , .exp-right-text img {
+	width: 100px;
+	margin-bottom: 20px;
+}
+
+.exp {
+    padding: 50px 0px;
+}
+
+.exp-right {
+	padding: 25px;
+}
+
+.part-of-slider {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.footer-wrapper {
+	display: block;
+	text-align: center;
+}
+
+.footer-right ul li a {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
